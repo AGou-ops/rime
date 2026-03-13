@@ -1,5 +1,6 @@
 patch:
   schema/name: 小鹤双拼
+  "switches/@0/reset": 1
   switches:
     - name: ascii_mode
       reset: 1
