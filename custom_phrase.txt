@@ -5,8 +5,16 @@ iOS	ios
 iPhone	i
 macOS	macos
 Mac	mac
+Linux 	linux
 B站	bzhan
 HarmonyOS	hm	2
 T恤	txu
 U盤	upan
 up主	upzhu
+怎么 	zm
+curl -I www.google.com 	curl
+export https_proxy=http://10.11.41.167:6152 http_proxy=http://10.11.41.167:6152 all_proxy=socks5://10.11.41.167:6152 	proxy
+kubernetes	k 	1
+neovim	neo
+neovim	neovim
+

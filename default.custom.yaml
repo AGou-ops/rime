@@ -2,12 +2,13 @@ patch:
   switcher:
     caption: 〔MINGDAY-CONFIG〕
     hotkeys:
-    - Control+apostrophe
+      - Control+apostrophe
   schema_list:
     # - schema: luna_pinyin_simp # 朙月拼音
     - schema: double_pinyin_flypy # 小鹤双拼
+    - schema: easy_en
     # - schema: double_pinyin # 自然码双拼
-    # - schema: numbers # 大写数字
+    - schema: numbers # 大写数字
 
   menu/page_size: 8 # 候选词个数
 
@@ -22,7 +23,7 @@ patch:
 
   key_binder/bindings: # 若开启, 去掉前面#
     # 翻页
-    #- { when: has_menu, accept: Tab, send: Page_Down }            # "tab" 键翻页, 和 "tab" 键分词只能二选一
+    # - { when: has_menu, accept: Tab, send: Page_Down }            # "tab" 键翻页, 和 "tab" 键分词只能二选一
     - { when: composing, accept: Tab, send: Shift+Right } # "tab" 键分词
     - { when: paging, accept: minus, send: Page_Up } # "-" 上一页
     - { when: has_menu, accept: equal, send: Page_Down } # "=" 下一页
